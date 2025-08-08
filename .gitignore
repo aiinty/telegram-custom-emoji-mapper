@@ -1,0 +1,19 @@
+# Environments
+.env
+.venv/
+venv/
+__pycache__/
+
+# Session files
+*.session
+
+# Downloads
+/download/
+
+# Mapper output
+/*.html
+/*.json
+
+# IDE settings
+.idea/
+.vscode/

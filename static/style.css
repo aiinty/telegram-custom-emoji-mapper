@@ -1,0 +1,81 @@
+body {
+  background-color: #f0f2f5;
+  font-family: Arial, sans-serif;
+  padding: 40px;
+  margin: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  color: #333333;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: #666666;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.emoji-list {
+  border-top: 1px solid #eeeeee;
+}
+
+.emoji-item {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.emoji-item img {
+  width: 48px;
+  height: 48px;
+  margin-right: 15px;
+}
+
+.emoji-item input {
+  font-size: 16px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+.emoji-item input:focus {
+  outline: none;
+  border-color: #4a90e2;
+}
+
+#saveBtn {
+  display: block;
+  width: 100%;
+  margin-top: 30px;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+#saveBtn:hover {
+  background-color: #357abd;
+}
