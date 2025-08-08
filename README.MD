@@ -1,33 +1,3 @@
-# Emoji Mapper
-
-This tool helps to download custom emojis from Telegram packs and map them to names for further use.
-
-## Features
-
-- **Telegram Bot (`bot.py`)**: downloads emojis from a specified pack using the `/scan <pack_short_name>` command.
-- **GUI Mapper (`mapper_gui.py`)**: generates an HTML page where you can conveniently enter names for the downloaded emojis and save the result as a `json` file.
-
-## Installation
-
-1.  **Clone the repository.**
-2.  **Create and fill in a `.env` file** using `.env.example` as a template:
-    ```env
-    API_ID=...
-    API_HASH=...
-    BOT_TOKEN=...
-    ```
-3.  **Install dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-## Usage
-
-Run the main script:
-```bash
-python main.py
-```
-
 # Telegram Custom Emoji Mapper
 
 This tool helps to download custom emojis from Telegram packs and map them to names for further use. It consists of two main components:
